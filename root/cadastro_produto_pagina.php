@@ -5,31 +5,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;400;700;900&display=swap" rel="stylesheet">
-
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Geologica:wght@100;200;400;700;900&display=swap" rel="stylesheet">
     <title>Cadastro de produto</title>
 </head>
 <body>
     <div class="wrapper_login">
-        <div class="login">
+        <div class="login form_cadastro_produto">
             <img width="64" src="/assets/coppio_logo.png" alt="logo coppio">
             <form action="cadastro_produto.php" method="post">
-                    <div class="">
+                    <div class="div_nome all_divs_form_cadastro_prod">
                         <p>Nome</p>
-                                        <input type="text" name="nome_prod_txt" id="email" placeholder="Nome do Produto">
+                        <input type="text" name="nome_prod_txt" id="email" placeholder="">
                     </div>
-                <input type="search" name="desc_prod" required id="email" placeholder="Descrição">
+                    <div class="div_desc all_divs_form_cadastro_prod">
+                        <p>Descrição</p>
+                        <input type="search" name="desc_prod" required id="email" placeholder="">
+                    </div>
                 <div class="qtd_nota">
 
-                    <input type="number" name="qtd_prod" required id="senha" placeholder="qtd:">
-                    <input type="number" name="nota_fiscal" required id="senha" placeholder="Nota Fiscal:">
+                <div class="div_qtd all_divs_form_cadastro_prod">
+                    <p>Quantidade</p>
+                    <input type="number" name="qtd_prod" required id="senha" placeholder="">
                 </div>
-                <input type="text" name="fornecedor_prod" required id="email" placeholder="Fornecedor">
+                <div class="div_notaFiscal all_divs_form_cadastro_prod">
+                    <p>Nota Fiscal</p>
+                    <input type="number" name="nota_fiscal" required id="senha" placeholder="">
 
-                <input type="submit" value="cadastrar" id="input_logar">
+                </div>
+
+                </div>
+                <div class="div_fornecedor all_divs_form_cadastro_prod">
+                    <p>Fornecedor</p>
+                    <input type="text" name="fornecedor_prod" required id="email" placeholder="">
+                </div>
+
+                <input type="submit" value="cadastrar" class="input_logar" id="cadastro_prod">
             </form>
         </div>
 

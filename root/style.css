@@ -1,5 +1,6 @@
 :root {
     font-size: 64.5%;
+    font-family: 'Geologica', sans-serif;
 }
 
 * {
@@ -9,7 +10,6 @@
 }
 body {
     font-size: 1.6rem;
-    font-family: 'Geologica', sans-serif;
 }
 
 .wrapper_login {
@@ -50,6 +50,7 @@ bottom: 8rem;
 
 }
 .login input {
+    width: 100%;
     border-radius: 4px;
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
@@ -58,24 +59,25 @@ bottom: 8rem;
     -webkit-box-shadow: 1px 1px 2px #333333;
     background: #cccccc;
     border: 1px solid #000000;
+
 }
 
-#input_logar {
+.input_logar {
     height: 4rem;
     
     border: none;
     border-radius: 4rem;
 
-    background-color: green;
+    background-color: green!important;
     color: white;
 
     cursor: pointer;
 
     position: relative;
-    bottom: -5em;
+    bottom: -5rem;
     
 }
-#input_logar:hover {
+.input_logar:hover {
     background-color: rgb(0, 92, 0);
     transition: 300ms;
 }
@@ -88,3 +90,59 @@ bottom: 8rem;
     border-radius: 2rem;
     border: none;
 }
+
+
+/* -------------------------------Cadastro_produto------------------------------- */
+.form_cadastro_produto form {
+    width: 100%;
+
+    padding-inline: 4rem;
+}
+.form_cadastro_produto form p {
+    font-size: 1rem;
+}
+.qtd_nota {
+    display: flex;
+    gap: 3rem;
+}
+
+.all_divs_form_cadastro_prod {
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+}
+.all_divs_form_cadastro_prod p {
+    position: relative;
+    left: 2rem;
+    
+}
+#cadastro_prod {
+    bottom: -2rem;
+    border: none;
+    border-radius: 4rem;
+
+    background-color: green;
+    color: white;
+}
+#cadastro_prod:hover {
+    background-color: rgb(0, 92, 0);
+    transition: 300ms;
+}
+.form_cadastro_produto img{
+    position: relative;
+    bottom: 4rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------fim- Cadastro_produto------------------------------- */
