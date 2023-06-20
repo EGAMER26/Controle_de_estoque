@@ -12,6 +12,9 @@
 </head>
 <body>
     <div class="wrapper_login">
+        <div class="title">
+            <h1>CADASTRO DE PRODUTO</h1>
+        </div>
         <div class="login form_cadastro_produto">
             <img width="64" src="/assets/coppio_logo.png" alt="logo coppio">
             <form action="cadastro_produto.php" method="post">
@@ -41,7 +44,7 @@
                     <input type="text" name="fornecedor_prod" required id="email" placeholder="">
                 </div>
 
-                <input type="submit" value="cadastrar" class="input_logar" id="cadastro_prod">
+                <input type="submit" value="cadastrar" id="cadastro_prod">
             </form>
         </div>
 

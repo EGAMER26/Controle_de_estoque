@@ -14,6 +14,9 @@
 </head>
 <body>
     <div class="wrapper_login">
+    <div class="title">
+            <h1>CADASTRO</h1>
+        </div>
         <div class="login">
             <img width="64" src="/assets/coppio_logo.png" alt="logo coppio">
             <form action="cadastro_usuario.php" method="post">
@@ -21,7 +24,7 @@
                 <input type="text" name="nome_txt" id="email" placeholder="Nome">
                 <input type="email" name="email_txt" required id="email" placeholder="E-mail">
                 <input type="password" name="senha_txt" required id="senha" placeholder="Senha">
-                <input type="submit" value="Logar" class="input_logar">
+                <input type="submit" value="Logar" id="input_logar">
             </form>
         </div>
 

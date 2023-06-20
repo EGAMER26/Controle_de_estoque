@@ -18,7 +18,7 @@
                 
                 <input type="email" name="emal_txt" required id="email" placeholder="E-mail">
                 <input type="password" name="senha_txt" required id="senha" placeholder="Senha">
-                <input type="submit" value="Logar" class="input_logar">
+                <input type="submit" value="Logar" id="input_logar">
             </form>
         </div>
 
