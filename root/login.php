@@ -14,11 +14,11 @@
     <div class="wrapper_login">
         <div class="login">
             <img width="64" src="/assets/coppio_logo.png" alt="logo coppio">
-            <form action="cadastro_usuario.php" method="post">
+            <form action="login_autenticacao.php" method="POST">
                 
-                <input type="email" name="emal_txt" required id="email" placeholder="E-mail">
+                <input type="email" name="email_txt" required id="email" placeholder="E-mail">
                 <input type="password" name="senha_txt" required id="senha" placeholder="Senha">
-                <input type="submit" value="Logar" id="input_logar">
+                <input type="submit" name="submit" value="submit" id="input_logar">
             </form>
         </div>
 
