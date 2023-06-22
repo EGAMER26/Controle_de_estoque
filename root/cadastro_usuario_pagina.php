@@ -11,6 +11,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;400;700;900&display=swap" rel="stylesheet">
 
     <title>Cadastro De Usuario</title>
+    <style>
+        .wrapperInputBoxCadastro {
+            display: flex;
+            flex-direction: column;
+            gap: 6rem;
+        }
+    </style> 
 </head>
 <body>
     <div class="wrapper_login">
@@ -21,10 +28,21 @@
             <img width="64" src="/assets/coppio_logo.png" alt="logo coppio">
             <form action="cadastro_usuario.php" method="post">
 
-                <input type="text" name="nome_txt" id="email" placeholder="Nome">
-                <input type="email" name="email_txt" required id="email" placeholder="E-mail">
-                <input type="password" name="senha_txt" required id="senha" placeholder="Senha">
-                <input type="submit" value="Logar" id="input_logar">
+                <div class="wrapperInputBoxCadastro">
+                    <div class="inputBox">
+                        <input type="text" name="nome_txt" required id="inputUser">
+                        <label for="nome_txt" class="labelInput">Nome</label>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="email_txt" required id="inputUser" placeholder="" >
+                        <label for="email_txt" class="labelInput">E-mail</label>
+                    </div>
+                    <div class="inputBox">
+                        <input type="password" name="senha_txt" required id="inputUser" placeholder="">
+                        <label for="senha_txt" class="labelInput">Senha</label>
+                    </div>
+                </div>
+                <input type="submit" value="Cadastrar" id="input_logar">
             </form>
         </div>
 
