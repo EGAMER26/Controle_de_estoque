@@ -40,10 +40,7 @@
                                             <input type="number" name="qtd_prod" required id="inputUser">
                                             <label for="qtd_prod" class="labelInput">Quantidade</label>                   
                                         </div>
-                                        <div class="inputBox">
-                                            <input type="date" name="data" required id="inputUser">
-                                            <label for="data" class="labelInput">data</label>                   
-                                        </div>
+                                       
                                         <div class="inputBox">
                                             <input type="number" name="nota_fiscal" required id="inputUser">
                                             <label for="nota_fiscal" class="labelInput">Nota Fiscal</label>
@@ -54,6 +51,10 @@
                                         <div class="inputBox">
                                             <input type="text" name="fornecedor_prod" required id="inputUser">
                                             <label for="fornecedor_prod" class="labelInput">Fornecedor</label>                    
+                                        </div>
+                                        <div style="text-align: center;" class="inputBox">
+                                            <label for="data" class="">Data de chegada</label>                   
+                                            <input style="text-align: center;" type="date" name="data_prod" required id="inputUser">
                                         </div>
                     </div>
 
