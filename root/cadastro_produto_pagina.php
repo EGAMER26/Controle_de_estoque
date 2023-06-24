@@ -24,14 +24,14 @@
         </div>
         <div class="login form_cadastro_produto">
             <img width="64" src="/assets/coppio_logo.png" alt="logo coppio">
-            <form action="cadastro_produto.php" method="post">
+            <form action="back_cadastro_produto.php" method="post">
                     <div class="cadastroProdWrapperInputBox">
                         <div class="inputBox">
                             <input type="text" name="nome_prod_txt" required id="inputUser">
                             <label for="nome_prod_txt" class="labelInput">Nome do Item</label>
                         </div>
                         <div class="inputBox">
-                            <input type="text" name="desc_prod" required id="inputUser">
+                            <input type="text" name="descricao_prod" required id="inputUser">
                             <label for="desc_prod" class="labelInput">Descrição</label>
                         </div>
                                         <div class="qtd_nota">
