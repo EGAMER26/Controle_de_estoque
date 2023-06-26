@@ -4,3 +4,6 @@ Version: '5.6.13'  socket: ''  port: 3307  MySQL Community Server (GPL)
 2023-03-27 21:30:28 13576 [Note] Event Scheduler: Loaded 0 events
 2023-03-27 21:30:28 13576 [Note] C:\Users\lab5\Downloads\usbwebserver/mysql/bin/mysqld_usbwv8.exe: ready for connections.
 Version: '5.6.13'  socket: ''  port: 3307  MySQL Community Server (GPL)
+2023-06-19 19:51:16 6900 [Note] Event Scheduler: Loaded 0 events
+2023-06-19 19:51:16 6900 [Note] C:\Users\egame\Downloads\Controle_de_estoque-master/mysql/bin/mysqld_usbwv8.exe: ready for connections.
+Version: '5.6.13'  socket: ''  port: 3307  MySQL Community Server (GPL)

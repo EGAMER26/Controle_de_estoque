@@ -27,34 +27,34 @@
             <form action="back_cadastro_produto.php" method="post">
                     <div class="cadastroProdWrapperInputBox">
                         <div class="inputBox">
-                            <input type="text" name="nome_prod_txt"  id="inputUser">
+                            <input type="text" name="nome_prod_txt" required id="inputUser">
                             <label for="nome_prod_txt" class="labelInput">Nome do Item</label>
                         </div>
                         <div class="inputBox">
-                            <input type="text" name="descricao_prod"  id="inputUser">
+                            <input type="text" name="descricao_prod" required id="inputUser">
                             <label for="desc_prod" class="labelInput">Descrição</label>
                         </div>
                                         <div class="qtd_nota">
                         
                                         <div class="inputBox">
-                                            <input type="number" name="qtd_prod"  id="inputUser">
+                                            <input type="number" name="qtd_prod" required id="inputUser">
                                             <label for="qtd_prod" class="labelInput">Quantidade</label>                   
                                         </div>
                                        
                                         <div class="inputBox">
-                                            <input type="number" name="nota_fiscal"  id="inputUser">
+                                            <input type="number" name="nota_fiscal" required id="inputUser">
                                             <label for="nota_fiscal" class="labelInput">Nota Fiscal</label>
                         
                                         </div>
                         
                                         </div>
                                         <div class="inputBox">
-                                            <input type="text" name="fornecedor_prod"  id="inputUser">
+                                            <input type="text" name="fornecedor_prod" required id="inputUser">
                                             <label for="fornecedor_prod" class="labelInput">Fornecedor</label>                    
                                         </div>
                                         <div style="text-align: center;" class="inputBox">
                                             <label for="data" class="">Data de chegada</label>                   
-                                            <input style="text-align: center;" type="date" name="data_prod"  id="inputUser">
+                                            <input style="text-align: center;" type="date" name="data_prod" required id="inputUser">
                                         </div>
                     </div>
 
