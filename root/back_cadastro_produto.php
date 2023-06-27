@@ -13,7 +13,7 @@ $nota_fiscal = $_POST["nota_fiscal"];
 $fornecedor = $_POST['fornecedor_prod'];
 $data = $_POST['data_prod'];
 
-$sql = "INSERT INTO material (nome_produto, desc_produto, valor_produto, nota_fiscal, fornecedor, data_chegada) VALUES ('$nome_prod', '$descri_prod', '$qtd_prod', '$nota_fiscal', '$fornecedor', '$data')";
+$sql = "INSERT INTO material (nome_produto, desc_produto, qtd_produto, nota_fiscal, fornecedor, data_chegada) VALUES ('$nome_prod', '$descri_prod', '$qtd_prod', '$nota_fiscal', '$fornecedor', '$data')";
 
 if ($conn->query($sql) === TRUE) {
     echo "<script>";
