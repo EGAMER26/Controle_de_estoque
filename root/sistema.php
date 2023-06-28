@@ -24,7 +24,7 @@ $logado = $_SESSION['email'];
 </head> 
 <body style="background-color: black;">
     <div class="sla" style="display: flex; justify-content: center; align-items: center; height: 100vh;">
-        <h1 style="color: white;">SISTEMA.php</h1>
+        <h1 style="color: white;">HELLO WORLD</h1>
     </div>
 </body>
 </html>
